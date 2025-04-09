@@ -1,4 +1,22 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="My Interest.aspx.cs" Inherits="Sangroba_Assignment10.My_Interest" %>
+﻿
+<!--
+# File Name : Sangroba_Assignment 10
+# Student Name: Bidhya Sangroula
+# email: sangroba@mail.uc.edu
+# Assignment Number: Assignment 10
+# Due Date:  04/10/2025
+# Course #/Section: IS 3050 Section 001
+# Semester/Year:   Spring/2025
+# Brief Description of the assignment:
+    This assignment creates a personal interest webpage using ASP.NET Web Forms, incorporating text, images, a bulleted list, a GridView, and a link to an external website.
+# Brief Description of what this module does:
+    The module displays a soccer-themed page with labeled sections, an image gallery, and a GridView showing favorite players. It binds data dynamically and includes a link to FIFA.com for further learning.
+# Citations:
+    https://stackoverflow.com/questions/74737328/gridview-and-showing-a-panel-c-sharp-and-asp-net
+    https://stackoverflow.com/questions/14034960/how-to-make-linkbutton-function-as-hyperlink
+# Anything else that's relevant:
+-->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="My Interest.aspx.cs" Inherits="Sangroba_Assignment10.My_Interest" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
