@@ -27,39 +27,37 @@
     <form id="form1" runat="server">
         <div>
             <!-- Header -->
-            <asp:Label ID="lblHeader" runat="server" Text="Soccer" Font-Size="XX-Large" Font-Bold="True" />
-            <br /><br />
+            <header>
+                <h1>Soccer</h1>
+            </header>
 
             <!-- Intro Paragraph -->
-            <asp:Label ID="lblIntro" runat="server" Text="Soccer, also known as football in many countries, is a sport I deeply enjoy. It brings people together and teaches teamwork and discipline." />
-            <br /><br />
+            <p>Soccer, also known as football in many countries, is a sport I deeply enjoy. It brings people together and teaches teamwork and discipline.</p>
 
             <!-- Soccer Ball Image -->
             <asp:Image ID="imgSoccerBall" runat="server" ImageUrl="~/Images/soccer_ball.jpg" AlternateText="A soccer ball" Width="300px" />
             <br /><br />
 
             <!-- Reasons Title -->
-            <asp:Label ID="lblReasonsHeader" runat="server" Text="Some of the reasons why people love Soccer" Font-Size="Large" Font-Bold="True" />
+            <h2>Some of the reasons why people love Soccer</h2>
 
             <!-- Reasons List -->
-            <asp:BulletedList ID="blReasons" runat="server">
-                <asp:ListItem>It's a global sport enjoyed by millions, which makes it accessible to people of all ages and backgrounds.</asp:ListItem>
-                <asp:ListItem>It has a sense of community; watching and supporting your team fosters a strong sense of belonging.</asp:ListItem>
-                <asp:ListItem>Soccer has many historic rivalries such as El Clasico (match between Barcelona and Real Madrid) which adds intensity to the sport and fuels fan passion.</asp:ListItem>
-                <asp:ListItem>Soccer has cultural significance, serving as a symbol of national pride and transcending cultural and language barriers.</asp:ListItem>
-            </asp:BulletedList>
+            <ul>
+                <li>It's a global sport enjoyed by millions, which makes it accessible to people of all ages and backgrounds.</li>
+                <li>It has a sense of community; watching and supporting your team fosters a strong sense of belonging.</li>
+                <li>Soccer has many historic rivalries such as El Clasico (match between Barcelona and Real Madrid) which adds intensity to the sport and fuels fan passion.</li>
+                <li>Soccer has cultural significance, serving as a symbol of national pride and transcending cultural and language barriers.</li>
+            </ul>
 
             <!-- Favorite Team -->
-            <asp:Label ID="lblFavoriteTeam" runat="server" Text="My Favorite Team" Font-Size="Large" Font-Bold="True" />
-            <br />
+            <h2>My Favorite Team</h2>
             <asp:Label ID="lblTeamDesc" runat="server" Text="FC Barcelona is my favorite team, and I have been a fan since I was young. Their rich history and incredible players inspire me every day." />
             <br /><br />
             <asp:Image ID="imgBarcelonaLogo" runat="server" ImageUrl="~/Images/fc_barcelona_logo.jpg" AlternateText="FC Barcelona Logo" Width="300px" />
             <br /><br />
 
             <!-- Favorite Players Title -->
-            <asp:Label ID="lblFavPlayers" runat="server" Text="Some of my Favorite Soccer Players" Font-Size="Large" Font-Bold="True" />
-
+            <h3>Some of my Favorite Soccer Players</h3>
             <!-- Players GridView -->
             <asp:GridView ID="gvPlayers" runat="server" AutoGenerateColumns="False" BorderWidth="1px">
                 <Columns>

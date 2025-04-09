@@ -24,24 +24,6 @@ namespace Sangroba_Assignment10
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblHeader control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblHeader;
-
-        /// <summary>
-        /// lblIntro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblIntro;
-
-        /// <summary>
         /// imgSoccerBall control.
         /// </summary>
         /// <remarks>
@@ -49,33 +31,6 @@ namespace Sangroba_Assignment10
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imgSoccerBall;
-
-        /// <summary>
-        /// lblReasonsHeader control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblReasonsHeader;
-
-        /// <summary>
-        /// blReasons control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.BulletedList blReasons;
-
-        /// <summary>
-        /// lblFavoriteTeam control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFavoriteTeam;
 
         /// <summary>
         /// lblTeamDesc control.
@@ -94,15 +49,6 @@ namespace Sangroba_Assignment10
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imgBarcelonaLogo;
-
-        /// <summary>
-        /// lblFavPlayers control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFavPlayers;
 
         /// <summary>
         /// gvPlayers control.
